@@ -1,5 +1,12 @@
-1404397067
+1404398936
 Application	C:/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+Home page	C:/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	C:/rails_projects/sample_app/config/application.rb	module SampleApp
+StaticPages	C:/rails_projects/sample_app/spec/requests/static_pages_spec.rb	describe "StaticPages" do
+StaticPagesController	C:/rails_projects/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
+StaticPagesHelper	C:/rails_projects/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+help	C:/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def help
+home	C:/rails_projects/sample_app/app/controllers/static_pages_controller.rb	  def home
+should have the content 'Sample App'	C:/rails_projects/sample_app/spec/requests/static_pages_spec.rb	it "should have the content 'Sample App'" do
